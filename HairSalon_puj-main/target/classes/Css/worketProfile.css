@@ -1,0 +1,14 @@
+
+.text-field {
+	-fx-accent: -fx-primary-color;
+	-fx-background-color: -fx-grey-color, white;
+	-fx-background-insets: 0, 0 0 1 0;
+	-fx-background-radius: 0;
+		-fx-primary-color:#bf4eb3;
+    	-fx-secondary-color: #bf4eb3;
+    	-fx-grey-color: #eda1e5;
+    	-fx-focus-color: -fx-secondary-color;
+}
+.text-field:focused {
+	-fx-background-color: -fx-primary-color, white;
+}
